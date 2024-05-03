@@ -17,6 +17,9 @@
     .intro-wrapper-text {
         grid-column: 2 / span 8 !important;
     }
+    .date-time-location-card {
+        grid-column: 2 / span 8 !important;
+    }
 }
 @keyframes slide {
   from {
@@ -365,7 +368,6 @@ article h2 {
 
 .date-time-location-card {
   margin-top: 50px;
-  padding: 15px;
   grid-column: 2 / span 3;
   border-radius: 5px;
 }
